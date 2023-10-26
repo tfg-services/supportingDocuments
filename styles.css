@@ -1,0 +1,140 @@
+
+* {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  height: fit-content;
+  color: #fff;
+  font-size: 16px;
+  background-image: url(damir-kopezhanov-VM1Voswbs0A-unsplash-1024x707.jpg);
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.719);
+  background-attachment:fixed ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 1px black;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  font-weight: 100;
+}
+
+label {
+  font-weight: 500;
+  display: block;
+  margin: 4px 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  overflow: hidden;
+
+}
+
+.name strong {
+    color: pink;
+    border-bottom: 1px solid white;
+    font-size: 1em;
+}
+
+#submit {
+    margin: 0 auto;
+}
+
+.form-controll {
+  display: block;
+  padding: 8px 16px;
+  width: 100%;
+  font-size: 16px;
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #fff;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 30px;
+  background: rgba(255,255,255,0.8);
+  color: #053777;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  border: 0;
+  text-shadow: 0 1px 2px #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-group {
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro {
+    max-width:90%;
+    text-align: center;
+    margin: 0 auto;
+    display: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+strong {
+    color: rgb(0, 255, 200);
+}
+.intro2 {
+    max-width: 600px;
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+    height: fit-content;
+
+}
+#img {
+    width: 120px;
+    height: 160px;
+}
+img {
+    width: 200px;
+    height: 160px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: fit-content;
+}
+
+.inval {
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 3px;
+    border: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    opacity: 0;
+    transition: ease-in-out 450ms;
+}
